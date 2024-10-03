@@ -187,3 +187,81 @@ body{
 #feature .featureBox:nth-child(6) h6{
     background-color: #fdf1dd;
 }
+
+#corte1{
+    text-align: center;
+}
+
+#corte1 .containerCortes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#corte1 .cortes{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 26px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#corte1 .cortes:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+#corte1 .cortes img{
+    width: 100%;
+    border-radius: 20px;
+    height: 224px;
+    /* max-height: 224px; */
+}
+
+#corte1 .cortes .descricao{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#corte1 .cortes .descricao span{
+    color: #447372;
+    font-size: 14px;
+
+}
+
+#corte1 .cortes .descricao h5{
+    padding-top: 8px;
+    color:#4a4a4a;
+    font-size: 16px;
+}
+
+#corte1 .cortes .descricao i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#corte1 .cortes .descricao h4{
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #447372;
+}
+
+#corte1 .cortes .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    /* background-color: #e9f6e8; */
+    color: #447372;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
